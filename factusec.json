@@ -1,0 +1,144 @@
+{
+  "CLIENTES" : [ null, {
+    "DIRECCION" : "AVDA 45 -96-96",
+    "DOCUMENTO" : 123,
+    "ID" : 1,
+    "NOMBRE" : "CARLOS CORREA L",
+    "TELEFONO" : "654654545"
+  }, {
+    "DIRECCION" : "AVDA CARACAS",
+    "DOCUMENTO" : 246,
+    "ID" : 2,
+    "NOMBRE" : "CAMILO LOPEZ",
+    "TELEFONO" : "787878"
+  }, {
+    "DIRECCION" : "cra 50 - 50- 50",
+    "DOCUMENTO" : 1357,
+    "ID" : 3,
+    "NOMBRE" : "SAOCOX",
+    "TELEFONO" : "55555"
+  }, {
+    "DIRECCION" : "CRA 45 96-78",
+    "ID" : 4,
+    "NOMBRE" : "CAROLINA QUINTERO",
+    "TELEFONO" : "64859514"
+  } ],
+  "DETALLES_FACTURA" : {
+    "1" : {
+      "CANTIDAD" : 4,
+      "FACTURA" : 1,
+      "ID_PRODUCTO" : 1
+    },
+    "2" : {
+      "CANTIDAD" : 2,
+      "FACTURA" : 1,
+      "ID_PRODUCTO" : 2
+    },
+    "3" : {
+      "CANTIDAD" : "3",
+      "FACTURA" : 2,
+      "ID_PRODUCTO" : 3
+    },
+    "4" : {
+      "CANTIDAD" : "3",
+      "FACTURA" : 2,
+      "ID_PRODUCTO" : "1"
+    },
+    "5" : {
+      "CANTIDAD" : 2,
+      "FACTURA" : 2,
+      "ID_PRODUCTO" : 1
+    },
+    "6" : {
+      "CANTIDAD" : 3,
+      "FACTURA" : 3,
+      "ID_PRODUCTO" : 2
+    },
+    "7" : {
+      "CANTIDAD" : 2,
+      "FACTURA" : 4,
+      "ID_PRODUCTO" : 1,
+      "VALOR" : 130000
+    },
+    "8" : {
+      "CANTIDAD" : 2,
+      "FACTURA" : 4,
+      "ID_PRODUCTO" : 3,
+      "VALOR" : 80000
+    },
+    "9" : {
+      "CANTIDAD" : 3,
+      "FACTURA" : 5,
+      "ID_PRODUCTO" : 2,
+      "VALOR" : 450000
+    },
+    "10" : {
+      "CANTIDAD" : 3,
+      "FACTURA" : 6,
+      "ID_PRODUCTO" : 2,
+      "VALOR" : 450000
+    },
+    "11" : {
+      "CANTIDAD" : 4,
+      "FACTURA" : 7,
+      "ID_PRODUCTO" : 1,
+      "VALOR" : 260000
+    },
+    "12" : {
+      "CANTIDAD" : 2,
+      "FACTURA" : 7,
+      "ID_PRODUCTO" : 2,
+      "VALOR" : 300000
+    }
+  },
+  "FACTURAS" : {
+    "1" : {
+      "FECHA" : "2014-06-03T00:00:00",
+      "ID" : 1,
+      "ID_CLIENTE" : 1
+    },
+    "2" : {
+      "FECHA" : "2014-06-11T00:00:00",
+      "ID" : 2,
+      "ID_CLIENTE" : 1
+    },
+    "3" : {
+      "FECHA" : "2014-06-05T00:00:00",
+      "ID" : 3,
+      "ID_CLIENTE" : 2
+    },
+    "4" : {
+      "FECHA" : "18/4/2017",
+      "ID" : 4,
+      "ID_CLIENTE" : 4
+    },
+    "5" : {
+      "FECHA" : "18/4/2017",
+      "ID" : 5,
+      "ID_CLIENTE" : 3
+    },
+    "6" : {
+      "FECHA" : "18/4/2017",
+      "ID" : 6,
+      "ID_CLIENTE" : 1
+    },
+    "7" : {
+      "FECHA" : "18/4/2017",
+      "ID" : 7,
+      "ID_CLIENTE" : 2
+    }
+  },
+  "PRODUCTOS" : [ null, {
+    "ID" : 1,
+    "PRECIO" : "65000",
+    "PRODUCTO" : "CAMISETAS"
+  }, {
+    "ID" : 2,
+    "PRECIO" : "150000",
+    "PRODUCTO" : "TENIS"
+  }, {
+    "ID" : 3,
+    "PRECIO" : "40000",
+    "PRODUCTO" : "PANTALONETAS"
+  } ]
+}
